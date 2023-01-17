@@ -10,7 +10,7 @@ https://security.google.com/settings/security/apppasswords.<br><br>
 <p>Na página, vamos selecionar a opção “Outro” para definir um nome para nosso projeto. Em seguida, determinamos o nome da aplicação e geramos o token:</p><br>
 <img src="https://dkrn4sk0rn31v.cloudfront.net/2019/07/17105826/image-20190717104049935.png" alt="Imagem-1">
 
-<h2>Criando script para envio de email<h1>
+<h2>Criando script para envio de email</h2>
 <p>Nosso script será bem simples. Basicamente, vamos informar o email e senha (conforme gerada no tópico anterior) da conta que será usada para enviar o email, o destinatário e o conteúdo do email. Sendo assim, o código será o seguinte:</p>
 
 <code>server.login("seu_email@gmail.com", "senha_gerada_topico_anterior")</code><br>
